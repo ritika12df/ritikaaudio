@@ -1,0 +1,66 @@
+/* src/EscalateForm.css */
+.escalate-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.escalate-form-container h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.escalate-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.escalate-form-container label {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.escalate-form-container textarea {
+    resize: vertical;
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.escalate-form-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.escalate-form-container button:hover {
+    background-color: #0056b3;
+}
+
+.escalate-form-container p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.escalate-form-container p.green {
+    color: #28a745;
+}
+
+.escalate-form-container p.red {
+    color: #dc3545;
+}
